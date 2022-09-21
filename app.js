@@ -2,6 +2,7 @@
 // > Part A: Import `getCountries` from fetch-utils.js
 import { getCountries } from './fetch-utils.js';
 // > Part B: Import `getContinents` from fetch-utils.js
+
 import { renderContinentOption, renderCountry } from './render-utils.js';
 
 /* Get DOM Elements */
@@ -21,7 +22,6 @@ window.addEventListener('load', async () => {
     // > Part A: call findCountries (with no arguments)
     findCountries();
     // > Part B: await the call to get continents to get the response
-
     // > Part B: Assign to state the:
     //      - error,
     //      - data (to the continents variable)
